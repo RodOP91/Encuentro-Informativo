@@ -9,6 +9,8 @@
 	function encuentroinf_setup() {
 		
 		add_theme_support('menus');
+
+		register_nav_menu('principal', 'Navegador Principal');
 			
 	}
 
