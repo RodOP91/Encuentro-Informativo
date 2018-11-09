@@ -17,4 +17,8 @@
 	add_action('wp_enqueue_scripts', 'encuentroinf_script_enqueue');
 
 	add_action('after_setup_theme', 'encuentroinf_setup');
+
+	add_theme_support('post-thumbnails');
+
+	add_theme_support('post-formats');
 	?>
