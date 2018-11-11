@@ -1,12 +1,180 @@
 html,
-body {
-	margin: 0;
-	color: red;
-	background: #D3D3D3;
-	font: sans-serif;
 
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #eee;
+	font-family: sans-serif;
+	height: 100%;
 }
 
-body {
-	padding: 50px;
+header{
+	position: fixed;
+	width: 100%;
+}
+
+#barra{
+	height: 5px;
+	background-color: #1e380d;
+	width: 100%;
+}
+
+#header{
+	height: 80px;
+	background-color: #143500;
+}
+
+.navbar navbar-expand-md{
+	background-color: #929912;
+	width: 100%;
+}
+
+.item{
+	display: inline-block;
+	width: 16%;
+	min-width: 125px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	height: 30px;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+}
+
+#espacio{
+	height: 150px;
+}
+#mosaico{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+#imgPrincipal{
+	height: 100%;
+	width: 49%;
+	display: inline-block;
+}
+#imgSecundarias{
+	display: inline-block;
+	height: 100%;
+	width: 49%;
+}
+
+.contenedorNoticias{
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: center;
+}
+
+.noticias{
+	width: 49%;
+	padding: 1px;
+	display: inline-block;
+	text-align: left;
+}
+
+.tituloSeccion{
+	color: #1e380d;
+	font-size: 20px;
+}
+
+.noticia{
+	width: 100%;
+	color: #1e380d;
+}
+
+.imgNoticia{
+	display: inline-block;
+	width: 40%;
+}
+
+.txtNoticia{
+	display: inline-block;
+	width: 59%;
+	vertical-align: top;
+}
+.tituloNoticia{
+	text-align: center;
+	margin-top: 15px;
+	font-size: 18px;
+}
+
+.resumenNoticia{
+	text-align: left;
+	text-align: center;
+}
+
+.noticiaCuadro{
+	display: inline-block;
+	width: 15%;
+	min-width: 115px;
+	background-color:  #143500;
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: white;
+	padding: 2px;
+}
+
+.imgNoticiaCuadro{
+	display: inline-block;
+	width: 80%;
+	height: 100px;
+}
+
+
+/*CATEGORIA*/
+
+#noticiasPrincipales{
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: center;
+	color: #1e380d;
+}
+
+.tituloNoticia2{
+	display: inline-block;
+	text-align: center;
+	margin-top: 15px;
+	font-size: 18px;
+}
+
+.tituloNoticia3{
+	text-align: left;
+	font-size: 18px;
+}
+
+.txtNoticia2{
+	display: inline-block;
+	text-align: left;
+	margin-bottom: 15px;
+}
+
+.txtNoticiaImg2{
+	display: inline-block;
+	width: 59%;
+	vertical-align: top;
+	margin-top: 5%;
+}
+
+#imagen1{
+	width: 40%;
+	display: inline-block;
+}
+#imagen2{
+	display: inline-block;
+	text-align: left;
+	width: 50%;
+	margin-left: 3%;
+	height: 100%;
+	vertical-align: top;
+}
+#imagen3{
+	text-align: left;
+	display: inline-block;
+	width: 100%;
 }
